@@ -6,7 +6,10 @@
         xmlns:local="clr-namespace:WpfHello1ForGit"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+    <Canvas>
+        <TextBlock Canvas.Left="87" TextWrapping="Wrap" Text="This is WpfHello1ForGit, by Tim." Canvas.Top="140"/>
+        <Button x:Name="btnHello" Content="Hello" Canvas.Left="91" Canvas.Top="188" Width="75" Click="BtnHello_Click"/>
+
+
+    </Canvas>
 </Window>

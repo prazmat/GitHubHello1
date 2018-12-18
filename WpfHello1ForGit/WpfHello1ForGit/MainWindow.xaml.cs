@@ -24,5 +24,10 @@ namespace WpfHello1ForGit
         {
             InitializeComponent();
         }
+
+        private void BtnHello_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Hello world!");
+        }
     }
 }
