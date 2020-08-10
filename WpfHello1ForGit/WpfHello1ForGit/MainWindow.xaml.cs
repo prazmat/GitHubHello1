@@ -27,7 +27,7 @@ namespace WpfHello1ForGit
 
         private void BtnHello_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Hello world!");
+            MessageBox.Show("Hello world! Today is 8/10/2020.");
         }
     }
 }
